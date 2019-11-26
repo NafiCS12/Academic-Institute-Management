@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView id="Background  finalk.jpg" fitHeight="790.0" fitWidth="1377.0" layoutX="-2358.0" layoutY="-349.0">
+      <image>
+        <Image url="file:/C:/Users/nafi/Pictures/project%20images/Background%20%20finalk.jpg" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <ImageView id="banner.png" fitHeight="200.00010681152344" fitWidth="1377.0" layoutX="-2358.0" layoutY="-543.0">
+      <image>
+        <Image url="file:/C:/Users/nafi/Pictures/project%20images/banner.png" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Button fx:id="searchStudent" layoutX="-2287.0" layoutY="-256.0" mnemonicParsing="false" onAction="#searchStudent" prefHeight="37.0" prefWidth="209.0" text="Students" wrapText="true">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Glow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant>
+              <color>
+                <Color blue="1.000" green="0.792" red="0.651" fx:id="x1" />
+              </color>
+            </javafx.scene.effect.Light.Distant>
+          </light>
+        </Lighting>
+      </effect>
+      <font>
+        <Font size="22.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Button fx:id="searchTeacher" font="$x2" layoutX="-2287.0" layoutY="-171.0" mnemonicParsing="false" onAction="#searchTeacher" prefHeight="37.0" prefWidth="209.0" text="Teachers" wrapText="true">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Glow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant color="$x1" />
+          </light>
+        </Lighting>
+      </effect>
+    </Button>
+    <Button font="$x2" layoutX="-2287.0" layoutY="-85.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="209.0" text="Courses" wrapText="true">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Glow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant color="$x1" />
+          </light>
+        </Lighting>
+      </effect>
+    </Button>
+    <Button font="$x2" layoutX="-2287.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="209.0" text="Research" wrapText="true">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Glow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant color="$x1" />
+          </light>
+        </Lighting>
+      </effect>
+    </Button>
+    <Button font="$x2" layoutX="-2287.0" layoutY="81.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="209.0" text="Event" wrapText="true">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Glow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant color="$x1" />
+          </light>
+        </Lighting>
+      </effect>
+    </Button>
+  </children>
+</AnchorPane>
